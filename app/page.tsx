@@ -14,12 +14,24 @@ import { Suggestion, Suggestions } from "@/components/ai-elements/suggestion"
 
 const models = [
   {
-    name: 'GTP 4o',
-    value: 'openai/gpt-4o'
+    name: 'Gemini 2.5 Flash',
+    value: 'google/gemini-2.5-flash'
+  },
+  {
+    name: 'GPT 5 Nano',
+    value: 'openai/gpt-5-nano'
+  },
+  {
+    name: 'Kimi K2',
+    value: 'moonshotai/kimi-k2'
   },
   {
     name: 'DeepSeek R1',
     value: 'deepseek/deepseek-r1'
+  },
+  {
+    name: 'GLM 4.5',
+    value: 'zai/glm-4.5'
   }
 ]
 
